@@ -7,3 +7,13 @@
 			opacity: 1;
 		}
 	}
+
+if you dont want its height either then thanks to me
+.carousel{
+	height: 0;
+	overflow: hidden;				
+	&.slick-initialized {				
+		height: auto;				
+		overflow: visible;				
+	}							
+}			
